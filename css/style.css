@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+
+
+body {
+    background-color: #202225;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    background-color: #0a0a0a;
+    width: 100vw;
+    height: 10vh;
+}
+
+nav {
+    display: flex;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    font-family: 'Antonio', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 5px;
+    margin: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+nav li:hover {
+    font-size: 1.3em;
+    text-decoration: overline;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/*=====================================================*/
+
+section {
+    display: flex;
+    margin-top: 3%;
+}
+
+#um {
+    background-color: aqua;
+    width: 40vw;
+    height: 80vh;
+}
+
+#dois {
+    background-color: greenyellow;
+    width: 40vw;
+    height: 80vh;
+}
